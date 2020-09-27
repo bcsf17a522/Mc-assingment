@@ -6,30 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="120dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="58dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="258dp"
-        android:text="log In"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="184dp"
-        android:layout_height="68dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="293dp"
-        android:layout_marginEnd="156dp"
-        android:text="i am not a robot"
-        android:textSize="18sp"
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="290dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
